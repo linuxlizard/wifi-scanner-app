@@ -28,7 +28,7 @@ function checkStatus(response)
 function getScan(success)
 {
     let url = 'http://localhost:5000/scan'
-    url = 'http://172.19.9.42:5000/scan'
+//    url = 'http://172.19.9.42:5000/scan'
     return fetch(url, {
         headers: {
             Accept: 'application/json',
